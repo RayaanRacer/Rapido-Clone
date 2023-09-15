@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Marcellus', serif;
+}
+.payment{
+    box-sizing: border-box;
+    width:450px;
+    background-color: rgba(247, 244, 92, 0.975);
+    background-size: cover;
+    margin-left:30%;
+    height: 100vh;
+    border: 1px solid gray;
+    border-bottom: none;
+}
+.payment-top{
+    height: 22vh;
+    border-bottom: 1px solid white;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.bi-arrow-left{
+    margin-left: 10px;
+    font-size: 30px;
+    margin-right: 67%;
+    text-decoration: none;
+    color: black;
+}
+.bi-question-circle-fill{
+    font-size: 25px;
+    margin-left: 280px;
+}
+.payment-top-top{
+    display: flex;
+}
+.payment-top-top p{
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.payment-heading h1{
+    position: relative;
+    top:-60px;
+    font-size: 39px;
+    font-weight: 500;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.payment-bottom{
+    height: 77.5vh;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 10px;
+    background-color: white;
+    border-top:1px solid white;
+}
+.p-wallet h4{
+    color: rgb(82, 80, 80);
+}
+.payment-top .bi-credit-card{
+    position: relative;
+    top:10px;
+    left: -230px;
+    font-size: 80px;
+    opacity: 30%;
+}
+.payment-bottom .p-wallet img{
+    height:40px;
+    width: 40px;
+}
+.p-wallet .each-wallet{
+    display: flex;
+    flex-direction: row;
+}
+.p-wallet .left-p{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+}
+.left-p h3{
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 170px;
+}
+.p-wallet .right-p{
+    padding-top: 8px;
+    font-weight: bolder;
+}
+.p-wallet .linkk{
+    color: rgb(75, 75, 220);
+}

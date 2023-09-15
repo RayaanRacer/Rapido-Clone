@@ -1,0 +1,31 @@
+img{
+    height:50px;
+}
+.box{
+    box-sizing: border-box;
+    width:90%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    padding-right: 3px;
+    padding-left: 3px;
+    height: 100px;
+    box-shadow:2px 2px 2px rgb(152, 151, 151);
+    border-radius: 5px;
+}
+.left{
+    width:75%;
+    float: left;
+    padding-left: 20px;
+}
+.left p{
+    font-size: 12px;
+    color: grey;
+    margin-top: -12px;
+}
+.right{
+    float: left;
+    width: 25%;
+    padding-top: 20px;
+}

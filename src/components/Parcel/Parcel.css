@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+.parcel{
+    width:450px;
+    background-color: rgb(247, 241, 241);
+    background-size: cover;
+    margin-left:30%;
+    height: 100vh;
+    border: 1px solid rgb(187, 181, 181);
+}
+.top{
+    width: 100%;
+    height:10%;
+}
+.top-right{
+    padding-left: 26%;
+    background-color: rgb(247, 241, 241);
+    border: 1px solid rgb(247, 241, 241);
+    box-shadow: 0px 0px;
+    font-size: 25px;
+}
+.top-last{
+    padding-top: 24px;
+    margin-left: -10px;
+}
+.bi-question-circle-fill{
+    color: rgb(223, 223, 6);
+    background-color:rgb(247, 241, 241);
+    border-radius: 50%;
+    font-size: 37px;
+    cursor: pointer;
+}
+.dot-1{
+  cursor:pointer;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 47%;
+  margin-top: 10px;
+  float: left;
+}
+.dot-2, .dot-3{
+  cursor:pointer;
+  width: 10px;
+  height: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-top: 10px;
+  float: left;
+}
+.pickup{
+  background-color: white;
+  height:25vh;
+  width:100%;
+  margin-top: 40px;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-bottom: 1px solid grey;
+}
+.pickup .top{
+  height:30%;
+  width:100%;
+  padding-top:10px;
+  display:flex;
+}
+.pickup .bottom-1{
+  height:30%;
+  width:100%;
+  padding-top:10px;
+  display:flex;
+}
+.pickup .green{
+  height: 20px;
+  width: 20px;
+  border: 7px solid rgb(23, 190, 23);
+  border-radius: 50%;
+  margin-top: 23px;
+  margin-right: 20px;
+}
+.bottom-1 .red{
+  margin-top: 23px;
+  margin-right: 20px;
+  height: 20px;
+  width: 20px;
+  border: 7px solid rgb(208, 74, 20);
+  border-radius: 50%;
+}
+.pickup .bi-plus-circle-fill{
+  margin-left: 40px;
+  margin-right: 20px;
+  color: rgb(69, 69, 255);
+  font-size: 20px;
+  font-weight: bolder;
+}
+.pickup .add-details{
+  color: rgb(69, 69, 255);
+  font-size: 15px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.pickup-2{
+  background-color: white;
+  height:25vh;
+  width:100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-bottom: 1px solid grey;
+}
+.pickup-3{
+  background-color: white;
+  height:14vh;
+  width:100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-bottom: 1px solid grey;
+  margin-top: -15px;
+  font-size: 15px;
+}
+.pickup-3 span{
+  color: blue;
+  font-size: 17px;
+}
+.pickup-3 .continue{
+  width: 100%;
+  background-color: yellow;
+  text-align: center;
+  height: 40px;
+  margin-top: -10px;
+  padding-top: 7px;
+  color: rgba(35, 33, 33, 0.739);
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Marcellus', serif;
+}
+.nav{
+    box-sizing: border-box;
+    width:450px;
+    background-color: rgb(213, 207, 207);
+    background-size: cover;
+    margin-left:30%;
+    height: 100vh;
+    border: 1px solid gray;
+    border-bottom: none;
+}
+.nav-left{
+    width:75%;
+    background-color: white;
+    height: 100%;
+    padding-top: 10px;
+    float: left;
+}
+.bi-person-circle{
+    color: white;
+    font-size: 40px;
+    border-radius: 50%;
+}
+.nav .profile-left{
+    background-color: rgb(50, 119, 50);
+    margin-left: 25px;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+.nav .profile-right{
+    float: left;
+    width: 200px;
+}
+.nav .profile-right h3{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.nav .profile-right p{
+    margin-left: 20px;
+    margin-top: -19px;
+    font-size: 15px;
+    color: rgb(97, 94, 94);
+}
+.nav .profile-line{
+    width: 100%;
+    border: 1px solid rgb(228, 224, 224);
+    margin-top: 70px;
+}
+.nav .rating{
+    width: 100%;
+    padding-top: 10px;
+}
+.nav .bi-star-fill{
+    margin-left: 20px;
+    float: left;
+    color: rgb(237, 237, 30);
+}
+.nav .rating p{
+    width: 100px;
+    float: left;
+    position: relative;
+    left: 50px;
+    top: -15px;
+}
+.nav .bi-chevron-left{
+    float: right;   
+    margin-right: 20px;
+    rotate: 180deg;
+}
+.profile-line-1{
+    margin-top: 40px;
+    width: 100%;
+    border: 1px solid rgb(228, 224, 224);
+}
+.nav .options{
+    width: 100%;
+    height:50px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.nav .option-logo{
+    font-size: 25px;
+    color: rgb(55, 14, 218);
+    position: relative;
+    /* left: -120px; */
+    top: 5px;
+}
+.options .option-name{
+    font-size: 20px;
+    color: rgb(71, 65, 65);
+    position: relative;
+    left: 70px;
+    top: -25px;
+}
+.nav-right{
+    float: left;
+    width: 25%;
+    height: 100%;
+    background-color: aqua;
+    background-image: url('https://www.wired.com/wp-content/uploads/2016/11/GoogleMapTA.jpg');
+    background-size: cover;
+}

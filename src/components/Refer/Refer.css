@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Marcellus', serif;
+    scroll-behavior: unset;
+}
+.refer{
+    box-sizing: border-box;
+    width:450px;
+    height: 100vh;
+    background-size: cover;
+    margin-left:30%;
+    border: 1px solid gray;
+    border-bottom: none;
+    background-image: linear-gradient(rgb(19, 57, 146),white);
+}
+.refer .refer-top-top{
+    display: flex;
+    flex-direction: row;
+}
+.refer .bi-arrow-left{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    padding-left: 4px;
+    border-radius: 50%;
+}
+.refer-top-top p{
+    margin-left: 120px;
+    margin-top: 25px;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 0.3px;
+}
+.refer .y-line{
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid rgb(206, 206, 20);
+    width: 9%;
+    margin-top: -5px;
+    border-radius: 5px;
+}
+.refer .tag-line{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    font-weight: 550;
+}
+.refer .refer-code{
+    color: white;
+    text-align: center;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    padding-top: 4px;
+    margin-top: 20px;
+    border: 1px dashed white;
+    border-radius: 4px;
+}
+.refer .img img{
+    height: 200px;
+    margin-left: 100px;
+}
+.refer .refer-bottom{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(248, 248, 248);
+    margin-top: -40px;
+}
+.refer .invite-link{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top:-20px;
+    background-color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(225, 218, 218);
+    padding-left: 15px;
+    border-radius: 5px;
+}
+.refer .invite-link i{
+    font-size: 27px;
+    margin-top:9px ;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+.info p{
+    color: black;
+}
+.refer .invi{
+    color: green;
+    margin-left: 100px;
+}
+.info{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(225, 218, 218);
+    padding-left: 15px;
+    border-radius: 5px;
+    background-color: white;
+    width: 90%;
+    height: 180px;
+}
+.info .line{
+    border: 1px solid rgb(208, 205, 205);
+    width: 90%;
+    margin-bottom: 10px;
+}
+.info .bi-1-circle{
+    font-size: 30px;
+}
+.info .info-bottom h3{
+    margin-left: 20px;
+    position: relative;
+    top: -50px;
+    left: 20px;
+}
+.info .info-bottom p{
+    margin-left: 20px;
+    position: relative;
+    top: -50px;
+    left: 20px;
+    font-size: 15px
+}
+.info .info-bottom{
+    padding-right: 40px;
+}
+.linkss{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    border: 1px solid rgb(225, 218, 218);
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: white;
+    width: 90%;
+}
+.linkss .findF{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(187, 182, 182);
+    padding-left: 15px;
+    border-radius: 5px;
+    background-color: white;
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+}
+.linkss .RefN{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: 1px solid rgb(187, 182, 182);
+    padding-left: 15px;
+    border-radius: 5px;
+    background-color: rgb(234, 204, 57);
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+}

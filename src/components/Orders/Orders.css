@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Marcellus', serif;
+}
+.Orders{
+    box-sizing: border-box;
+    width:450px;
+    background-color: rgba(247, 244, 92, 0.975);
+    background-size: cover;
+    margin-left:30%;
+    height: 100vh;
+    border: 1px solid gray;
+    border-bottom: none;
+}
+.order-top{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.bi-arrow-left{
+    font-size: 40px;
+}
+.order-top p{
+    margin-left: 20px;
+    margin-top: -5px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.Orders .choice{
+    display: flex;
+    flex-direction: row;
+}
+.Orders .choice .Rides{
+    width: 50%;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.Orders .choice .Parcel{
+    width: 50%;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.Orders .main-bottom{
+    background-color: white;
+    height: 74vh;
+}
+.Orders .left-line{
+    float: left;
+    width: 50%;
+    height: 2px;
+    border: 1px solid black;
+}
+.right-line{
+    margin-left:50% ;
+    float: right;
+    width: 50%;
+    height: 2px;
+    border: 1px solid black;
+}
+.main-bottom .left-line img{
+    height: 150px;
+    margin-top:150px;
+    margin-left: 150px;
+}
+.main-bottom .right-line img{
+    height: 150px;
+    margin-top:150px;
+    margin-left: -76px;
+}
+.main-bottom{
+    display: flex;
+    flex-direction: column;
+}
+.main-bottom .heading{
+    margin-top: 320px;
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    font-size: 20px;
+}
+.main-bottom .description{
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    color: rgb(59, 56, 56);
+}
